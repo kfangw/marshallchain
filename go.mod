@@ -1,4 +1,4 @@
-module github.com/cosmos/sdk-application-tutorial
+module github.com/kfangw/marshall
 
 go 1.12
 
@@ -8,8 +8,8 @@ require (
 	github.com/mattn/go-isatty v0.0.7 // indirect
 	github.com/prometheus/procfs v0.0.0-20190328153300-af7bedc223fb // indirect
 	github.com/spf13/afero v1.2.2 // indirect
-	github.com/spf13/cobra v0.0.3
-	github.com/spf13/viper v1.0.3
+	github.com/spf13/cobra v0.0.5
+	github.com/spf13/viper v1.3.2
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/tendermint/go-amino v0.15.0
 	github.com/tendermint/tendermint v0.31.5
@@ -19,3 +19,7 @@ require (
 )
 
 replace golang.org/x/crypto => github.com/tendermint/crypto v0.0.0-20180820045704-3764759f34a5
+
+replace github.com/cosmos/cosmos-sdk => github.com/kfangw/cosmos-sdk v0.28.2-0.20190616100639-18415eedaf25
+
+replace github.com/tendermint/tendermint => github.com/kfangw/tendermint v0.31.5
